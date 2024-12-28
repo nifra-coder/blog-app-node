@@ -15,7 +15,7 @@ const { checkForAuthenticationCookie } = require('./middlewares/authentications'
 
 const app = express()
 const mongoose = require('mongoose');
-const PORT = process.env.PORT || 9005 ;
+const PORT = process.env.PORT || 8000 ;
 
 app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
